@@ -66,7 +66,7 @@ public class ValidasiInput extends javax.swing.JFrame {
             if(!Character.isDigit(c) || 
                (c == KeyEvent.VK_BACK_SPACE) ||
                (c == KeyEvent.VK_DELETE) ||
-               (jTextField1.getText().length()== 9)){
+               (jTextField1.getText().length()== 12)){
                evt.consume();
             }
     }//GEN-LAST:event_jTextField1KeyTyped
